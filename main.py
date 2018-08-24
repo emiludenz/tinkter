@@ -4,6 +4,7 @@ def main():
 
 	
 	win = tk.Tk()
+<<<<<<< HEAD
 	win.title("Welcome")
 	win.geometry("500x300")
 
@@ -29,6 +30,12 @@ def main():
 
 
 
+=======
+
+	# Major Change
+	lableName = tk.Label(text="Heello")
+	lableName.grid(row=0,column=0)
+>>>>>>> refs/remotes/origin/master
 
 	win.mainloop()
 
